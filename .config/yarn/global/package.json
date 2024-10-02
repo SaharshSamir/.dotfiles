@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@eslint/create-config": "^0.2.0",
+    "create-astro": "^4.8.0",
+    "create-next-app": "^14.2.4",
+    "create-react-app": "^5.0.1",
+    "create-tauri-app": "^2.7.3",
+    "create-vite": "^4.3.2",
+    "create-vite-plugin-ssr": "^0.0.278",
+    "diagnostic-languageserver": "^1.14.2",
+    "neovim": "^4.10.1",
+    "tree-sitter-cli": "^0.20.4",
+    "yarn": "^1.22.22"
+  }
+}
