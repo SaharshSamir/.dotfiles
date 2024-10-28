@@ -1,0 +1,7 @@
+dozer
+fig
+git-credential-manager-core
+miniforge
+raycast
+unnaturalscrollwheels
+warp
