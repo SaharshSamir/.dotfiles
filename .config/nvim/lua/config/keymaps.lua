@@ -6,3 +6,4 @@
 vim.keymap.set("i", "kj", "<Esc>", { noremap = true, silent = true })
 vim.keymap.set("v", "<leader>y", '"+y')
 vim.keymap.set("n", "<leader>Y", '"+Y')
+vim.keymap.set("n", "<leader>U", ":UndotreeToggle<CR>", { desc = "Toggle undo tree" })

@@ -28,3 +28,11 @@ vim.opt.signcolumn = "yes"
 vim.opt.cursorline = true
 
 vim.opt.clipboard = ""
+
+vim.opt.guicursor = "n-v-c:block,i:ver25"
+
+vim.g.snacks_animate = false
+
+vim.api.nvim_set_keymap("n", "<leader>d", '"_d', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("x", "<leader>d", '"_d', { noremap = true, silent = true })
+vim.api.nvim_set_keymap("x", "<leader>p", '"_dP', { noremap = true, silent = true })

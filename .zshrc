@@ -116,6 +116,7 @@ VI_MODE_CURSOR_OPPEND=2
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=/opt/homebrew/bin:$PATH
 alias myip="curl http://ipecho.net/plain; echo"
+alias vim="nvim"
 
 #----------------THEME STUFF---------------
 
@@ -160,3 +161,4 @@ export LDFLAGS="-L/opt/homebrew/opt/ffmpeg@6/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/ffmpeg@6/include"
 
 eval $(thefuck --alias)
+export PATH=!$PATH:$(go env GOPATH)/bin

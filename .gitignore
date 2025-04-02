@@ -8,3 +8,6 @@ log/
 .DS_Store
 .ssh
 .config/tmux/plugins/*
+node_modules
+extensions
+.config/github-copilot/apps.json
